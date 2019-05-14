@@ -1,0 +1,2 @@
+python libraries- urllib2, BeautifulSoup, sys
+Wamp server for php

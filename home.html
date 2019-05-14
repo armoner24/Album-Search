@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Album Search</title>
+<style>
+body {background-color: powderblue;}
+div.a {position: fixed; text-align: center; bottom: 30px; left: 710px;}
+div.b {position: fixed; text-align: center; bottom: 10px; left: 780px;}
+</style>
+</head>
+<body>
+<h1 align='center'>Search the Album</h1>
+<h4>This site is made with the purpose to help the user find their favourite star's album with just one keyword and have a look at other related album's that match with the given query</h4>
+<br>
+<p>Give the query here:</p>
+<form action="index.php" method="POST">
+Album Keyword: <input type="text" name="album" placeholder="keyword"></input>
+<input type="submit" value="Submit"></input>
+</form>
+<div class="a">Hosted and Created by AADITYA VAIDYA</div>
+<div class="b">(c) Copyright 2018</div>
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script>
+  var config = {
+    apiKey: "AIzaSyAGJ_T77Yvni9xPFgMA0p0e3G5osWp2mAo",
+    authDomain: "album-search-2bfcc.firebaseapp.com",
+    databaseURL: "https://album-search-2bfcc.firebaseio.com",
+    projectId: "album-search-2bfcc",
+    storageBucket: "",
+    messagingSenderId: "401364218837"
+  };
+  firebase.initializeApp(config);
+</script>
+</body>
+</html>
+
